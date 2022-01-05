@@ -1,34 +1,91 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>PD oldala</title>
-	</head>
-	<body style="background-color: bisque;">
-		
-        <div class="sidebar">
-            <a class="active" href=" https://peterffydominika.github.io/collage/">Home</a>
-            <a href="https://peterffydominika.github.io/collage/keplink.html">Képlink</a>
-            <a href="https://peterffydominika.github.io/collage/orarend.html">Órarend</a>
-            <a href="https://peterffydominika.github.io/collage/Listak.html">Listák</a>
-          </div>
-          
-          <div class="content">
-                <h1 style="background-color:DodgerBlue; color:#D8A7D1">Péterffy Dominika</h1>
-                <h2 style="background-color:MediumSeaGreen; color:#2BF70A">Péterffy Dominika</h2>
-                <h3 style="background-color:Violet; color:#F77F0A">Péterffy Dominika</h3>
-                <h4 style="background-color:SlateBlue; color:#F70A0A">Péterffy Dominika</h4>
-                <h5 style="background-color:DodgerBlue; color:#CB6B6B">Péterffy Dominika</h5>
-		
-                    1.feladat: <a href="https://peterffydominika.github.io/collage/keplink.html" target="blank">KÉPLINK</a>
-                <p>2.feladat: <a href="" target="blank">LISTÁK</a></p>
-                <p>3.feladat: <a href="https://peterffydominika.github.io/collage/orarend.html" target="blank">ÓRAREND</a></p>
-                
-		
-		<p style="color:Tomato;">Ez itt a kollázsom:</p>
-        <img src="https://github.com/peterffydominika/kollazs/blob/9fd7f20c6ac773043b842e6051e57ff6b640623d/241982091_2208186285990034_8345507759441583113_n.jpg?raw=true" alt="kollázs" title="kollázs" width=500>
-         
-          </div>
-          
+<head>
+    <title>PD oldala</title>
+    <body style="background-color: bisque;"></body>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
 
-	</body>
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+ 
+.sidebar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+</style>
+</head>
+<body>
+
+    <div class="sidebar">
+        <a class="active" href=" https://peterffydominika.github.io/collage/">Home</a>
+        <a href="https://peterffydominika.github.io/collage/keplink.html">Képlink</a>
+        <a href="https://peterffydominika.github.io/collage/orarend.html">Órarend</a>
+        <a href="https://peterffydominika.github.io/collage/Listak.html">Listák</a>
+      </div>
+
+      <div class="content">
+        <h1 style="background-color:DodgerBlue; color:#D8A7D1">Péterffy Dominika</h1>
+        <h2 style="background-color:MediumSeaGreen; color:#2BF70A">Péterffy Dominika</h2>
+        <h3 style="background-color:Violet; color:#F77F0A">Péterffy Dominika</h3>
+        <h4 style="background-color:SlateBlue; color:#F70A0A">Péterffy Dominika</h4>
+        <h5 style="background-color:DodgerBlue; color:#CB6B6B">Péterffy Dominika</h5>
+
+            1.feladat: <a href="https://peterffydominika.github.io/collage/keplink.html" target="blank">KÉPLINK</a>
+        <p>2.feladat: <a href="" target="blank">LISTÁK</a></p>
+        <p>3.feladat: <a href="https://peterffydominika.github.io/collage/orarend.html" target="blank">ÓRAREND</a></p>
+        
+
+<p style="color:Tomato;">Ez itt a kollázsom:</p>
+<img src="https://github.com/peterffydominika/kollazs/blob/9fd7f20c6ac773043b842e6051e57ff6b640623d/241982091_2208186285990034_8345507759441583113_n.jpg?raw=true" alt="kollázs" title="kollázs" width=500>
+ 
+  </div>
+
+</body>
 </html>
