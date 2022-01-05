@@ -1,21 +1,86 @@
 <!DOCTYPE html>
 <html>
-  <head>
-   <title>kép+link</title>
- </head>
- <body>
-   <nav>
-		<a href=" https://peterffydominika.github.io/collage/">HOME</a>|
-		<a href="https://peterffydominika.github.io/collage/keplink.html">Képlink</a>|
-		<a href="https://peterffydominika.github.io/collage/orarend.html">Órarend</a>|
-		<a href="https://peterffydominika.github.io/collage/Listak.html">Listák</a>|
-	</nav>
-   
-   <h1>Péterffy Dominika</h1>
+<head>
+    <title>kép+link</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <body style="background-color: bisque;"></body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+ 
+.sidebar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+</style>
+</head>
+<body>
+	
+
+    <div class="sidebar">
+        <a class="active" href=" https://peterffydominika.github.io/collage/">Home</a>
+        <a href="https://peterffydominika.github.io/collage/keplink.html">Képlink</a>
+        <a href="https://peterffydominika.github.io/collage/orarend.html">Órarend</a>
+        <a href="https://peterffydominika.github.io/collage/Listak.html">Listák</a>
+      </div>
+
+      <div class="content">
+	      <h1>Péterffy Dominika</h1>
    <p>Képlink feladat</p>
    <a href="https://nlc.hu/cimke/madarpok/">
       <img src="https://nlc.p3k.hu/uploads/2018/06/madarpok.jpg" alt="pók" title="Madárpók" width=250>
   </a>
- </body>
+  </div>
+
+</body>
 </html>
 
