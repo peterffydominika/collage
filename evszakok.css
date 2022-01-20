@@ -1,5 +1,5 @@
 body{
-    background-color: thistle;
+    background-color: bisque;
 }
 
 h1 {
@@ -7,7 +7,7 @@ h1 {
 }
 
 .content {
-    background-color: thistle;
+    background-color: bisque;
     width: 1000px;
     height: 400px;
     margin-left: auto;
