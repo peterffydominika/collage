@@ -1,5 +1,5 @@
 body{
-    background-image: url(hatterkepgit.jpg);
+  background-color: bisque;
 }
 
 h1 {
@@ -7,7 +7,7 @@ h1 {
 }
 
 .content {
-    background-image: url(hatterkepgit.jpg);
+  background-color: bisque;
     width: 1000px;
     height: 400px;
     margin-left: auto;
