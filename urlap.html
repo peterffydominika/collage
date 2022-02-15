@@ -4,20 +4,87 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pizza rendelés</title>
+    <title>Étel rendelés</title>
+    <body style="background-color:  peachpuff;"></body>
+    <style>
+
+div.content {
+  margin-left: 800px;
+  padding: 1px 10px;
+  height: auto;
+  background-color: whitesmoke;
+  text-align: justify;
+  width: 300px;
+  border: 0,7px solid black;  
+  border-radius: 10%;
+}
+            
+    </style>
 </head>
 <body>
-    <h1>Pizza rendelés</h1>
-    A neved:
-    <input type='text'>
-    <br>
-    <p></p>
-    Jelszó:
-    <input type='password'>
-    <br>
-    <p></p>
-    Nemed:
-    <input type='radio' name='gender'> fiú
-    <input type='radio' name='gender'> lány
+    <div class="content">
+        <h1>Étel rendelés</h1>
+        A neved:
+        <input type='text'>
+        <br>
+        <p></p>
+        E-mail cím:
+        <input type='email'>
+        <br>
+        <p></p>
+        Jelszó:
+        <input type='password'>
+        <br>
+        <p></p>
+        Nemed:
+        <input type='radio' name='gender'> fiú
+        <input type='radio' name='gender'> lány
+        <br>
+        <p></p>
+        Hány adag ételt szeretnél? 
+        <input type='number'>
+        <br>
+        <p></p>
+        Melyik napra szeretnéd megkapni az ételt?
+         <input type='date'>
+        <br>
+        <p></p>
+        Pontosan hány órára? <input type='time'>
+        <br>
+        <p></p>
+
+        <p>Leves: </p>
+        <select>  
+            <option>---Válassz levest!--- </option>
+            <option>Húsleves       </option>
+            <option>Halászlé         </option>
+            <option>Bableves       </option>
+            <option>Kínai garnélás leves          </option>
+        </select>
+        <br>
+        <p></p>
+
+        <p>Főétel: </p>
+        <select>  
+            <option>---Válassz főételt!--- </option>
+            <option>Gyros       </option>
+            <option>Rántott hús + sült krumpli         </option>
+            <option>Rántott hekk + sült krumpli       </option>
+            <option>Csilis bab          </option>
+        </select>
+        <br>
+        <p></p>
+
+        <p>Desszert: </p>
+        <select>  
+            <option>---Válassz desszertet!--- </option>
+            <option>Fekete erdő torta szelet       </option>
+            <option>Képviselő fánk         </option>
+            <option>Zslés epertorta szelet      </option>
+            <option>Rákóczi krémes          </option>
+        </select>
+        <p></p>
+    </div>
+
 </body>
 </html>
