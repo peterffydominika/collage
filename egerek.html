@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gamer egér shop</title>
+    <style>
+        body{
+            background-color: darkcyan;
+        }
+
+        table,tr,td{
+            border: 2px solid black;
+            font-weight: bold;
+            text-align: center;
+            background-color: white;
+        }
+        button{
+            font-weight: bold;
+            border: double;
+        }
+        th{
+            background-color: blue;
+            color:whitesmoke;
+        }
+    </style>
+</head>
+<body>
+    <script>
+var termek01 = 12507
+var termek02 = 12553
+var termek03 = 18790
+var termek04 = 18690
+
+function hozzaad(termek){
+    db = Number(prompt('Mennyit kérsz?'))
+    localStorage.setItem(termek,db)
+}
+
+function torles() {
+    localStorage.clear()
+}
+    </script>
+<table>
+<tr>
+    <th>Egér típusa</th>
+    <td>Trust GXT138 X-Ray gamer egér</td>
+    <td>URAGE Illuminated2 (Reaper200) <br> vezetékes gamer egér 3000 DPI</td>
+    <td>Sharkoon Drakonia II Gamer egér</td>
+    <td>Xtrfy M4 RGB gamer egér</td>
+</tr>
+<tr>
+    <th>Kép</th>
+    <td><img style="width:250px;" src="gamer-eger1.jpg" alt="eger1"></td>
+    <td><img style="width:250px;" src="gamer-eger2.jpg" alt="eger2"></td>
+    <td><img style="width:250px;" src="gamer-eger3.jpg" alt="eger3"></td>
+    <td><img style="width:250px;" src="gamer-eger4.jpg" alt="eger4"></td>
+</tr>
+<tr>
+    <th>Ár</th>
+    <td>12 507 Ft</td>
+    <td>12 553 Ft</td>
+    <td>18 790 Ft</td>
+    <td>18 690 Ft</td>
+</tr>
+<tr>
+    <th><button onclick="torles()">Törlés</button></th>
+    <td><button onclick="hozzaad('termek01')">Kosárba</button></td>
+    <td><button onclick="hozzaad('termek02')">Kosárba</button></td>
+    <td><button onclick="hozzaad('termek03')">Kosárba</button></td>
+    <td><button onclick="hozzaad('termek04')">Kosárba</button></td>
+</tr>
+    
+</table>
+</body>
+</html>
